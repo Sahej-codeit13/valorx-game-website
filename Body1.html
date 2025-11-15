@@ -8,34 +8,189 @@
 
 </head>
 <body>
-    <div id="intro-wrap">
-        <video id="intro-video" autoplay muted loop>
-            <source src="video.mp4" type="video/mp4">
+  
+<!-- navbar -->
+  <header class="navbar">
+    <div class="logo">VALORX</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#arsenal">Arsenal</a></li>
+        <li><a href="#modes">Game Modes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="login-btn">Login</button>
+  </header>
 
-        </video>
-        <header class="navbar">
-      <div class="nav-container">
-     
-        <div class="logo">
-          <img src="photo1.png" alt="ValorX Logo">
-        </div>
+  <!-- sec1 -->
+  <section id="home" class="section home-section">
+    <video autoplay muted loop id="bg-video">
+      <source src="video.mp4" type="video/mp4">
+    </video>
+  </section>
 
-     
-        <nav class="nav-links">
-          <ul>
-            <li><a href="#">Games</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">Support</a></li>
-          </ul>
-        </nav>
+  <!-- Sec2 -->
+<section id="about" class="section about-section">
+  <div class="about-bg"></div>
 
-        <div class="nav-right">
-          <a href="#" class="login-btn">Login</a>
-        </div>
-      </div>
-    </header>
+  <div class="about-content">
+    <h1 class="section-title">Welcome to VALORX</h1>
+    <p class="section-subtitle">
+      Step into the ultimate futuristic combat experience. ValorX brings you tactical warfare, 
+      high-tech weapons, and thrilling missions designed to push your skills to the limit.
+    </p>
+
+
+    <div class="about-cards-container">
+    <!-- Row 1: 4 cards -->
+    <div class="about-card">
+      <h2>Immersive Battles</h2>
+      <p>Engage in large-scale maps with realistic environments and intense combat scenarios.</p>
     </div>
+    <div class="about-card">
+      <h2>Advanced Technology</h2>
+      <p>Utilize cutting-edge weapons, drones, and gadgets to gain the upper hand in missions.</p>
+    </div>
+    <div class="about-card">
+     <h2>Teamwork & Strategy</h2>
+      <p>Plan your moves, coordinate with your squad, and dominate tactical objectives.</p>
+    </div>
+    <div class="about-card">
+      <h2>Elite Missions</h2>
+      <p>Take on challenging operations that test your tactical and strategic skills.</p>
+    </div>
+
+  <!-- Row 2: 2 cards centered -->
+    <div class="about-card about-card-center">
+      <h2>Custom Loadouts</h2>
+      <p>Equip your squad with customized weapons and gadgets to suit your battle style.</p>
+    </div>
+    <div class="about-card about-card-center">
+      <h2>Leaderboards & Achievements</h2>
+      <p>Compete globally, track your progress, and climb the ValorX leaderboards for glory.</p>
+    </div>
+    
+
+  </div>
+
+    </div>
+
+    <!-- CTA Button -->
+    <button class="cta-btn">Join ValorX Now</button>
+  </div>
+</section>
+
+
+
+<!-- sec3 -->
+  <!-- Section 3: Arsenal / Features -->
+<section id="arsenal" class="section arsenal-section">
+  <h1 class="section-title">Arsenal & Features</h1>
+  <p class="section-subtitle">
+    Choose from futuristic weapons, vehicles, and tactical gadgets to dominate every battle.
+  </p>
+
+  <div class="arsenal-container">
+
+    <div class="arsenal-card">
+      <img src="rifle.png" alt="Futuristic Rifle">
+      <h2>Futuristic Rifle</h2>
+      <p>High-precision energy rifle with scope and rapid-fire capabilities for mid to long-range combat.</p>
+    </div>
+
+    <div class="arsenal-card">
+      <img src="drone.png" alt="Recon Drone">
+      <h2>Recon Drone</h2>
+      <p>Deploy a drone to scout the battlefield, mark enemies, and gather intelligence in real-time.</p>
+    </div>
+
+    <div class="arsenal-card">
+      <img src="tank.png" alt="Armored Tank">
+      <h2>Armored Tank</h2>
+      <p>Heavy armored tank with explosive rounds — perfect for breaking enemy lines and defense zones.</p>
+    </div>
+
+    <div class="arsenal-card">
+      <img src="sheild.png" alt="Energy Shield">
+      <h2>Energy Shield</h2>
+      <p>Activate a deployable energy shield to block incoming attacks and gain tactical advantage.</p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- sec4 -->
+  <!-- Section 4: Game Modes -->
+<section id="modes" class="section modes-section">
+  <h1 class="section-title">Game Modes</h1>
+<p class="section-subtitle">
+  Experience a variety of intense modes — from solo survival to team-based missions, each designed for ultimate action.
+</p>
+  <div class="modes-container">
+    
+    <div class="mode-card">
+      <img src="battle-royale.png" alt="Battle Royale">
+      <h2>Battle Royale</h2>
+      <p>Fight to be the last one standing in massive maps filled with chaos and action.</p>
+    </div>
+
+    <div class="mode-card">
+      <img src="capture.png" alt="Capture Zone">
+      <h2>Capture Zone</h2>
+      <p>Team up and dominate control zones before your rivals can take over.</p>
+    </div>
+
+    <div class="mode-card">
+      <img src="survival.png" alt="Survival Mode">
+      <h2>Survival</h2>
+      <p>Endure endless waves of enemies — only the strongest survive.</p>
+    </div>
+
+    <div class="mode-card">
+      <img src="co-op.png" alt="Co-op Missions">
+      <h2>Co-op Missions</h2>
+      <p>Join forces with your squad for tactical missions full of danger and glory.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Section 5: Contact -->
+<section id="contact" class="section contact-section">
+  <h1 class="section-title">Get in Touch</h1>
+  <p class="section-subtitle">Have questions or want to join the ValorX squad? Drop us a message!</p>
+
+  <form class="contact-form">
+    <div class="form-group">
+      <input type="text" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+      <input type="text" name="subject" placeholder="Subject" required>
+    </div>
+    <div class="form-group">
+      <select name="reason" required>
+        <option value="">Reason for Contact</option>
+        <option value="support">Support</option>
+        <option value="feedback">Feedback</option>
+        <option value="partnership">Partnership</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="cta-btn">Send Message</button>
+  </form>
+</section>
+
+
+
+
     
 </body>
 </html>
