@@ -67,7 +67,8 @@
         <h2>Leaderboards & Achievements</h2>
         <p>Push your limits, grind your stats, and climb to the top — let the world know your name.</p>
       </div>
-    </div> <button class="cta-btn">Join ValorX Now</button>
+    </div> 
+    <button class="cta-btn">Join ValorX Now</button>
     
   </div> </section>
 
@@ -101,7 +102,7 @@
     </div>
 
     <div class="arsenal-card">
-      <img src="sheild.png" alt="Energy Shield">
+      <img src="sheild.png" alt="Energy Shield Gear">
       <h2>Energy Shield</h2>
       <p>Drop an instant barrier to block bullets and turn the fight in your favor.</p>
     </div>
@@ -112,9 +113,9 @@
 <!-- sec4 -->
 <section id="modes" class="section modes-section">
   <h1 class="section-title">Game Modes</h1>
-<p class="section-subtitle">
-  Play your way — solo, squad, survival, or full war mode. Every match is pure adrenaline.
-</p>
+  <p class="section-subtitle">
+    Play your way — solo, squad, survival, or full war mode. Every match is pure adrenaline.
+  </p>
 
   <div class="modes-container">
     
@@ -143,7 +144,17 @@
     </div>
 
   </div>
+
+  <!-- NEW: Name Input Section -->
+  <div class="name-box">
+    <input type="text" id="playerName" placeholder="Enter Your Name">
+    <button id="startBtn">Start Game</button>
+    <h2 id="displayName"></h2>
+  </div>
+  
 </section>
+
+
 
 
 <!-- Section 5: Contact -->
@@ -151,7 +162,7 @@
   <h1 class="section-title">Get in Touch</h1>
   <p class="section-subtitle">Any questions or want to join the ValorX squad? Send us a message!</p>
 
-  <form class="contact-form">
+  <form class="contact-form" action="#">
     <div class="form-group">
       <input type="text" name="name" placeholder="Your Name" required>
     </div>
@@ -175,6 +186,9 @@
     <button type="submit" class="cta-btn">Send Message</button>
   </form>
 </section>
+
+<script src="script.js"></script>
+
 
 </body>
 </html>
